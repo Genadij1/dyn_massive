@@ -17,7 +17,6 @@ int main()
 
         addRow(matrix, newRow);
 
-        // Виведення зміненого масиву
         for (const auto& row : matrix) {
             for (const auto& element : row) {
                 cout << element << " ";
