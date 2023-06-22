@@ -9,7 +9,7 @@ void addRowToBeginning(std::vector<std::vector<int>>& matrix, const std::vector<
 
 int main() {
     vector<vector<int>> matrix = { {1, 2, 3},
-                                            {4, 5, 6} };
+                                   {4, 5, 6} };
 
     vector<int> newRow = { 7, 8, 9 };
 
