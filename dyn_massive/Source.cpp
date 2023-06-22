@@ -3,7 +3,7 @@
 #include <vector>
 using namespace std;
 
-void addRowToBeginning(std::vector<std::vector<int>>& matrix, const std::vector<int>& row) {
+void addRowToBeginning(vector<vector<int>>& matrix, const vector<int>& row) {
     matrix.insert(matrix.begin(), row);
 }
 
@@ -22,5 +22,6 @@ int main() {
         cout << endl;
     }
 
+    system("pause>nul");
     return 0;
 }
